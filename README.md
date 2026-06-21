@@ -35,7 +35,7 @@ L = SoftCLIP(pred_img, img_clip)
   + gd_mult * GD(pred_img, img_clip)
 ```
 
-For reconstruction, `reconstruct.py` generates 16 candidate images for each test fMRI sample. Each candidate is encoded by CLIP-ViT-H, and the final image is selected by cosine similarity to the original stimulus image CLIP embedding. This implements the 16-candidate reranking protocol used by the experiments.
+For reconstruction, `reconstruct.py` generates 16 candidate images for each test fMRI sample.
 
 See `METHOD.md` for the paper-to-code mapping.
 
