@@ -1,0 +1,16 @@
+torch
+torchvision
+numpy
+pillow
+kornia
+git+https://github.com/openai/CLIP.git
+transformers
+diffusers
+accelerate
+safetensors
+pandas
+pycocotools
+nibabel
+h5py
+tqdm
+matplotlib
