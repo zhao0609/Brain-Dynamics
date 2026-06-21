@@ -78,11 +78,3 @@ After training, the predicted `1 x 1024` visual feature conditions the frozen IP
 pred_image = BrainEncoder(fMRI)
 candidate_j = IPAdapter_SDXL(pred_image), j = 1...16
 ```
-
-The final reconstruction is selected with the candidate reranking protocol:
-
-```text
-argmax_j cosine(CLIP_image(candidate_j), CLIP_image(original_stimulus))
-```
-
-This selection is performed only after candidates are generated. The original stimulus does not condition generation.
