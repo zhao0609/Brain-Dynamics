@@ -125,4 +125,3 @@ Use `--save_all_candidates` to save every candidate image.
 ## Notes
 
 - This repository does not include NSD data, COCO annotations, CLIP weights, SDXL-Turbo weights, IP-Adapter weights, or trained checkpoints.
-- The default reconstruction uses 16-candidate reranking based on original stimulus CLIP similarity. The original stimulus is not used to condition the generator; it is only used to select the final image among generated candidates.
